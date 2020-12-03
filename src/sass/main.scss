@@ -1,53 +1,11 @@
-@import "./abstracts/variables";
-@import "./abstracts/mixins";
-@import "./abstracts/functions";
+@import "/abstracts/variables";
+@import "/abstracts/mixins";
+@import "/abstracts/functions";
 
-@import "./header.scss";
+@import "layout/header";
+
+@import "components/_slider.scss";
+@import "components/_button.scss";
+
 @import "base/base";
-
- *,
- *::after,
- *::before {
-   margin: 0;
-   padding: 0;
-   box-sizing: inherit;
- }
-
-$color-primary: #ee710b;
-$color-secondary:#fad400;
-$color-grey-dark: #777;
- html {
-   font-size: 62.5%
- }
- 
- body {
-   font-family: "Lato", sans-serif;
-   font-weight: 400;
-   line-height: 1.7;
-   color: $color-grey-dark;
-   padding: 3rem;
-   box-sizing: border-box;
-   
- }
- 
- .previous, .next {
-  display: block;
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  padding: 16px;
-  margin-top: -22px;
-  color: red;
-  font-weight: bold;
-  font-size: 70px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-    
-}
-
-.next {
-	right: 3rem;
-}
- 
+@import "base/typography";
