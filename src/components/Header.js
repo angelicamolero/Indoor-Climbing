@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from '../img/logo-w.png';
-import Button  from './Button';
+import Button  from './utils/Button';
 
 const Header = () => {
     return(
@@ -14,7 +14,7 @@ const Header = () => {
                 <span className="heading-primary--sub">get prepare for the outside</span>
             </h1>
             <Button
-             css="btn--white btn--animated"
+             css="btn btn--white btn--animated"
              text="Discover indoor climbing"
             />
             </div>
