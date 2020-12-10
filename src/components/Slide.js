@@ -19,8 +19,8 @@ const Slide = () => {
                     <Route exact path="/two">
                         <div className="inside_slide">
                             <About/>
-                            <Link to="/three" className="next">&#10095;</Link>
-                            <Link to="/" className="previous">&#10094;</Link>
+                            <Link to="/three" className="next-color">&#10095;</Link>
+                            <Link to="/" className="previous-color">&#10094;</Link>
                         </div>
                     </Route>
                 </Switch>
