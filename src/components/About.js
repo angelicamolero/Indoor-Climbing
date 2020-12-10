@@ -38,7 +38,11 @@ const About = () => {
                     />
                     </div>
                     <div class="col-1-of-2">
-                    images
+                    <div className="composition">
+                        <img src="../img/nat-1.jpg" alt="Photo 1" className="composition__photo composition__photo--p1"/>
+                        <img src="../img/nat-2.jpg" alt="Photo 2" className="composition__photo composition__photo--p2"/>
+                        <img src="../img/nat-3.jpg" alt="Photo 3" className="composition__photo composition__photo--p3"/>
+                    </div>
                     </div>
                 </div>
            </section>
