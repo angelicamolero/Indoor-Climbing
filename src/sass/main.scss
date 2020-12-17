@@ -4,11 +4,13 @@
 
 @import "layout/_header";
 @import "layout/_about";
+@import "layout/_featurebox";
 
-@import "components/_slider.scss";
-@import "components/_button.scss";
-@import "components/_grid.scss";
-@import "components/compositions";
+@import "components/_slider";
+@import "components/_button";
+@import "components/_grid";
+@import "components/_compositions";
+@import "components/_card";
 
 @import "base/base";
 @import "base/typography";
