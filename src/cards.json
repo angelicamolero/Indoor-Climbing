@@ -1,5 +1,22 @@
 [
-    {
-        "icon": ""
-    }
+        {
+            "icon": "icon-basic-world",
+            "title": "Explore the world",
+            "paragraph": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum sapiente aspernatur."
+        },
+        {
+            "icon": "icon-basic-compass",
+            "title": "meet nature",
+            "paragraph": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum sapiente aspernatur."
+        },
+        {
+            "icon": "icon-basic-map",
+            "title": "find your way",
+            "paragraph": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum sapiente aspernatur."
+        },
+        {
+            "icon": "icon-basic-heart",
+            "title": "live a helthier life",
+            "paragraph": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum sapiente aspernatur."
+        }
 ]

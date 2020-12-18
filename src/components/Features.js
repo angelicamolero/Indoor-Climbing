@@ -1,11 +1,26 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import Card from './utils/Card';
+import Data from '../cards.json';
 
 const Features = () => {
+
+    console.log(Data)
+
+    const [card, setCard] = useState([]);
+    useEffect(() => {
+        setCard(Data)
+    }, [card])
+
     return (
         <section className="section-features">
                <div className="row">
-                   <Card/>
+
+                   {card?.map((card, i) => (
+                        <Card
+                            key={i}
+                            card={card}
+                       />
+                   ))}
                </div>
         </section>
     )
