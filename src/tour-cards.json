@@ -8,7 +8,8 @@
             "2 tour guides",
             "Sleep in cozy hotels",
             "Diffculty: easy"
-        ]
+        ],
+        "id": "1"
     },
     {
         "img": "icon-basic-world",
@@ -19,7 +20,8 @@
             "6 tour guides",
             "Sleep in provided tents",
             "Diffculty: medium"
-        ]
+        ],
+        "id": "2"
     },
     {
         "img": "icon-basic-world",
@@ -30,6 +32,7 @@
             "3 tour guides",
             "Sleep in provided tents",
             "Diffculty: hard"
-        ]
+        ],
+        "id": "3"
     }
 ]

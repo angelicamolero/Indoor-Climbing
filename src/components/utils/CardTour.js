@@ -1,5 +1,5 @@
 import React from 'react';
-import HeadingTertiary from './HeadingTertiary';
+// import HeadingTertiary from './HeadingTertiary';
 // import Paragraph from './Paragraph';
 
 const CardTour = ({tourCard}) => {
@@ -13,7 +13,7 @@ const CardTour = ({tourCard}) => {
                     <div className="tour-card__side tour-card__side--front">
                         front
                     </div>
-                    <div className="tour-card__side tour-card__side--back">
+                    <div className={`tour-card__side tour-card__side--back tour-card__side--back-${tourCard.id}`}>
                         back
                     </div>
                 </div>
