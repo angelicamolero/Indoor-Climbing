@@ -1,0 +1,35 @@
+[
+    {
+        "img": "icon-basic-world",
+        "title": "The sea explorer",
+        "features": [
+            "3 day tours",
+            "Up to 30 People",
+            "2 tour guides",
+            "Sleep in cozy hotels",
+            "Diffculty: easy"
+        ]
+    },
+    {
+        "img": "icon-basic-world",
+        "title": "The forest hiker",
+        "features": [
+            "7 day tours",
+            "Up to 40 People",
+            "6 tour guides",
+            "Sleep in provided tents",
+            "Diffculty: medium"
+        ]
+    },
+    {
+        "img": "icon-basic-world",
+        "title": "the snow adventurer",
+        "features": [
+            "5 day tours",
+            "Up to 15 People",
+            "3 tour guides",
+            "Sleep in provided tents",
+            "Diffculty: hard"
+        ]
+    }
+]

@@ -3,6 +3,7 @@ import Header from './Header';
 import { BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom';
 import About from './About';
 import Features from './Features';
+import Tour from './Tour';
 
 const Slide = () => {
 
@@ -29,6 +30,13 @@ const Slide = () => {
                             <Features/>
                             <Link to="/four" className="next">&#10095;</Link>
                             <Link to="/two" className="previous">&#10094;</Link>
+                        </div>
+                    </Route>
+                    <Route exact path="/four">
+                        <div className="inside_slide">
+                            <Tour/>
+                            <Link to="/five" className="next">&#10095;</Link>
+                            <Link to="three" className="previous">&#10094;</Link>
                         </div>
                     </Route>
                 </Switch>

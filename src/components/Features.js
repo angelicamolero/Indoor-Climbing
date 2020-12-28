@@ -4,12 +4,12 @@ import Data from '../cards.json';
 
 const Features = () => {
 
-    console.log(Data)
-
     const [card, setCard] = useState([]);
     useEffect(() => {
         setCard(Data)
     }, [card])
+
+    
 
     return (
         <section className="section-features">
