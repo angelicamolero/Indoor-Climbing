@@ -10,7 +10,12 @@ const CardTour = ({tourCard}) => {
         
             <div className="col-1-of-3">
                 <div className="tour-card">
-                    Heading
+                    <div className="tour-card__side tour-card__side--front">
+                        front
+                    </div>
+                    <div className="tour-card__side tour-card__side--back">
+                        back
+                    </div>
                 </div>
             </div>
 

@@ -1,11 +1,36 @@
 .tour-card {
-    background-color: orangered;
-    height: 50 rem;
-    transition: all .8s;
+    perspective: 150rem;
+    -moz-perspective: 150rem;
+    position: relative;
+    height: 50rem;
 
-    &:hover {
+    &__side {
+        background-color: orangered;
+        height: 50rem;
+        transition: all .8s ease;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        backface-visibility: hidden;
+
+        &--front {
+            background-color: $color-white;
+        }
+
+        &--back {
+            background-color: linear-gradient(to right, $color-primary, $color-secondary);
+            transform: rotateY(180deg);
+        }
+    }
+
+    &:hover &__side--front {
         transform: rotateY(180deg);
     }
 
-    
+    &:hover &__side--back {
+        transform: rotateY(0);
+    }
+
+
 }
