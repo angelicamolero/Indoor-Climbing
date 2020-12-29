@@ -10,8 +10,6 @@ const Tour = () => {
         setTourCard(DataTour)
     }, [tourCard])
 
-     console.log(DataTour);
-
     return (
         <section className="section-tours">
             <div className="u-center-text u-margin-bottom-big">
