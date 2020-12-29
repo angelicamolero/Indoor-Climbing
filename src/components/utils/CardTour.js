@@ -29,7 +29,7 @@ const CardTour = ({tourCard}) => {
                                <p className="tour-card__price-value">{tourCard.price}</p>
                             </div>
                             <Button
-                                css="btn btn--white"
+                                css="btn btn--orange"
                                 text="Book now!"
                             />
                         </div>

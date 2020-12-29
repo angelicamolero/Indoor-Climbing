@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import HeadingSecondary from './utils/HeadingSecondary';
+import Button from './utils/Button';
 import CardTour from './utils/CardTour';
 import DataTour from '../tour-cards.json';
 
@@ -25,6 +26,13 @@ const Tour = () => {
                                 tourCard={tourCard}
                         />
                     ))}
+            </div>
+
+            <div className="u-center-text u-margin-top-big">
+             <Button
+                css="btn btn--orange"
+                text="Discover all tours"
+             />
             </div>
         </section>
     )
