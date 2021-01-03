@@ -1,9 +1,15 @@
-import React  from 'react';
+import React, { useState, useEffect } from 'react';
 import HeadingSecondary from './utils/HeadingSecondary';
-import Sotry from './utils/Story'
+import Story from './utils/Story'
+import DataStory from '../stories.json';
 
 const Tour = () => {
+    const [story, setStory] = useState([]);
+    useEffect(() => {
+        setStory(DataStory)
+    }, [story])
 
+    console.log(DataStory);
     return (
         <section className="section-stories">
            <div className="u-center-text u-margin-bottom-big">
@@ -13,7 +19,12 @@ const Tour = () => {
                 />
            </div>
            <div className="row">
-            <Story/>
+           { story?.map((story, i) => (
+            <Story
+            key={i}
+            story={story}
+            />
+           ))}
            </div>
         </section>
     )
