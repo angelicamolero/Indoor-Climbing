@@ -13,7 +13,7 @@ const Story = ({story}) => {
             </figure>
             <div className="story__text">
                 <HeadingTertiary
-                css="heading-tertiary"
+                css="heading-tertiary u-margin-bottom-small"
                 text={story.title}
                 />
                 <Paragraph
