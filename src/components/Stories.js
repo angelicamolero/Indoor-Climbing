@@ -1,5 +1,6 @@
 import React  from 'react';
 import HeadingSecondary from './utils/HeadingSecondary';
+import Sotry from './utils/Story'
 
 const Tour = () => {
 
@@ -12,7 +13,7 @@ const Tour = () => {
                 />
            </div>
            <div className="row">
-               
+            <Story/>
            </div>
         </section>
     )
