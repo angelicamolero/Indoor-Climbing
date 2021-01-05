@@ -1,11 +1,13 @@
 [
     {
         "img": "nat-8.jpg",
+        "caption": "Mary Smith",
         "title": "I had the best week ever with my family",
         "paragraph":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum sapiente aspernatur."
     },
     {
         "img": "nat-9.jpg",
+        "caption": "Jack Wilson",
         "title": "wow! my life is comepletely different now",
         "paragraph":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum sapiente aspernatur."
     }
