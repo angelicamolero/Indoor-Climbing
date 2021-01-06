@@ -2,19 +2,20 @@
 @import "/abstracts/mixins";
 @import "/abstracts/functions";
 
-@import "layout/_header";
-@import "layout/_about";
-@import "layout/_featurebox";
-@import "layout/_tours";
-@import "layout/_stories";
+@import "layout/header";
+@import "layout/about";
+@import "layout/featurebox";
+@import "layout/tours";
+@import "layout/stories";
 
-@import "components/_slider";
-@import "components/_button";
-@import "components/_grid";
-@import "components/_compositions";
-@import "components/_card";
-@import "components/_tourcard";
-@import "components/_story";
+@import "components/slider";
+@import "components/button";
+@import "components/grid";
+@import "components/compositions";
+@import "components/card";
+@import "components/tourcard";
+@import "components/story";
+@import "components/bg-video";
 
 
 @import "base/base";
